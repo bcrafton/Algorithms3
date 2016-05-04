@@ -1,0 +1,5 @@
+Brian Crafton and Justin Hynes-Bruell
+The algorithms implemented run in exponential time. 
+The exhaustive knapsack algorithm iterated through all possible combinations of the knapsack which was 2^n. Since every element in the knapsack could have been selected or unselected this meant that the number of combinations was much like a binary string. For each of these iterations a "getValue", "setBestSolution", and "iterate" method were called. "getValue" ran in constant time but both "setBestSolution" and "iterate" ran in linear time. This means that the asymptotic runtime of the algorithm was O(n*2^n).
+The exhaustive graph coloring algorithm iterated through all possible combinations of the graph nodes colored. This number was dependent on the number of possible colors for each node: (number of colors)^n. This algorithm iterated (number of colors)^n times and each time it ran "setBestSolution" and "getValue". These two algorithms ran in linear time. So the asymptotic runtime of this algorithm was O(n*(number of colors)^n).
+

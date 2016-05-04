@@ -1,0 +1,11 @@
+Running knapsack and graph coloring using branch and bound has different strengths then the exhaustive and greedy algorithms had. Branch and bound is similar to an exhaustive search but uses bounds to cut away at possible solutions, such that it only has to explore, or “branch” when necessary. 
+Compared to an Exhaustive Algorithms branch and bound is generally more time efficient as it explores far less options and finds the same most optimized solution. As an important side note, though it is statistically improbably, there is a chance that in the worst case, it will explore branches from worst to best and not be able to bound, thus making it take as long as exhaustive. 
+Compared to a greedy algorithm branch and bound produces a more accurate solution, however, this comes at the cost of efficiency. branch and bound will generally take longer than a greedy algorithm.
+
+
+
+
+
+
+
+
